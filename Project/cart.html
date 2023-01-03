@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+
+  <title>Cart</title>
+
+  <meta charset="utf-8" /> <!---8-bit character encoding capable of encoding all characters-->
+    <meta name="description" content="cart, buy">
+  
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+
+<!-- Start Top Header Bar -->
+<section class="top-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<div class="contact-number">
+					<i class="tf-ion-ios-telephone"></i>
+					<span>+353 87 134943</span>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<!-- Site Logo -->
+				<div class="logo text-center">
+					<a href="index.html">	
+						<h1>FOOTSOLDIER</h1>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-4">
+	</div>
+</section><!-- End Top Header Bar -->
+
+
+<!-- Main Menu Section -->
+<section class="menu">
+	<nav class="navbar navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<h2 class="menu-title">Main Menu</h2>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div>
+
+			<!-- Navbar Links -->
+			<div id="navbar" class="navbar-collapse collapse text-center">
+				<ul class="nav navbar-nav">
+
+					<!-- Home -->
+					<li class="dropdown ">
+						<a href="index.html">Home</a>
+					</li><!-- / Home -->
+
+
+					<!-- Elements -->
+					<li class="dropdown dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Shop <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<div class="dropdown-menu">
+							<div class="row">
+
+								<!-- Basic -->
+								<div class="col-lg-6 col-md-6 mb-sm-3">
+									<ul>
+										<li class="dropdown-header">Pages</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="shop.html">Products</a></li>
+										<li><a href="cart.html">Cart</a></li>
+
+									</ul>
+								</div>
+
+				
+					<!-- Pages -->
+					<li class="dropdown full-width dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Pages <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<div class="dropdown-menu">
+							<div class="row">
+
+								<!-- Introduction -->
+								<div class="col-sm-3s col-xs-12">
+									<ul>
+										<li class="dropdown-header">Account</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="contact.html">Contact Us</a></li>
+										<li><a href="signin.html">Sign Up</a></li>
+										<li><a href="login.html">Login</a></li>
+									</ul>
+								</div>
+
+								<!-- Contact -->
+								<div class="col-sm-3 col-xs-12">
+									<ul>
+										<li class="dropdown-header">Dashboard</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="order.html">Orders</a></li>
+										<li><a href="address.html">Address</a></li>
+									</ul>
+								</div>
+
+</div>
+</section>
+
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 class="page-name">Cart</h1>
+					<ol class="breadcrumb">
+						<li><a href="index.html">Home</a></li>
+						<li class="active">cart</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<div class="page-wrapper">
+  <div class="cart shopping">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="block">
+            <div class="product-list">
+              <form method="post">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="">Item Name</th>
+                      <th class="">Item Price</th>
+                      <th class="">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="">
+                      <td class="">
+                        <div class="product-info">
+                          <img width="80" src="images/shop/cart/cart-1.jpg" alt="" />
+                          <a href="">Air Force One LV8</a>
+                        </div>
+                      </td>
+                      <td class="">€139.99</td>
+                      <td class="">
+                        <a class="product-remove" href="#!">Remove</a>
+                      </td>
+                    </tr>
+              
+                    <tr class="">
+                      <td class="">
+                        <div class="product-info">
+                          <img width="80" src="images/shop/cart/cart-3.jpg" alt="" />
+                          <a href="#!">NMD_R1 Shoes</a>
+                        </div>
+                      </td>
+                      <td class="">€80</td>
+                      <td class="">
+                        <a class="product-remove" href="#!">Remove</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="checkout.html" class="btn btn-main pull-right">Checkout</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer section text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="copyright-text">Copyright &copy;2022 FootSoldier  </a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+ <!-- Main jQuery -->
+ <script src="plugins/jquery/dist/jquery.min.js"></script>
+ <!-- Bootstrap Touchpin -->
+ <script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+
+ <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+ <!-- Main Js File -->
+ <script src="js/script.js"></script>
+ <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
+  </html>

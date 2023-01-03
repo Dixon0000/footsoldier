@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  
+  <title>FootSoldier</title>
+
+  <meta charset="utf-8" /> <!---8-bit character encoding capable of encoding all characters-->
+    <meta name="description" content="contact, phone, email">
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+
+<!-- Start Top Header Bar -->
+<section class="top-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<div class="contact-number">
+					<i class="tf-ion-ios-telephone"></i>
+					<span>+353 87 134943</span>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<!-- Site Logo -->
+				<div class="logo text-center">
+					<a href="index.html">	
+						<h1>FOOTSOLDIER</h1>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<!-- Cart -->
+				<ul class="top-menu text-right list-inline">
+					<li class="dropdown cart-nav dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
+								class="tf-ion-android-cart"></i>Cart</a>
+						<div class="dropdown-menu cart-dropdown">
+		
+							<ul class="text-center cart-buttons">
+								<li><a href="empty-cart.html" class="btn btn-small">View Cart</a></li>
+								<li><a href="checkout.html" class="btn btn-small btn-solid-border">Checkout</a></li>
+							</ul>
+						</div>
+
+					</li><!-- / Cart -->
+
+					<!-- Search -->
+					<li class="dropdown search dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
+								class="tf-ion-ios-search-strong"></i> Search</a>
+						<ul class="dropdown-menu search-dropdown">
+							<li>
+								<form action="post"><input type="search" class="form-control" placeholder="Search..."></form>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section><!-- End Top Header B<!-- End Top Header Bar -->
+
+
+<!-- Main Menu Section -->
+<section class="menu">
+	<nav class="navbar navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<h2 class="menu-title">Main Menu</h2>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div><!-- / .navbar-header -->
+
+			<!-- Navbar Links -->
+			<div id="navbar" class="navbar-collapse collapse text-center">
+				<ul class="nav navbar-nav">
+
+					<!-- Home -->
+					<li class="dropdown ">
+						<a href="index.html">Home</a>
+					</li><!-- / Home -->
+
+
+					<!-- Elements -->
+					<li class="dropdown dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Shop <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<div class="dropdown-menu">
+							<div class="row">
+
+								<!-- Basic -->
+								<div class="col-lg-6 col-md-6 mb-sm-3">
+									<ul>
+										<li class="dropdown-header">Pages</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="shop.html">Products</a></li>
+										<li><a href="cart.html">Cart</a></li>
+
+									</ul>
+								</div>
+
+							
+
+
+					<!-- Pages -->
+					<li class="dropdown full-width dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Pages <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<div class="dropdown-menu">
+							<div class="row">
+
+								<!-- Introduction -->
+								<div class="col-sm-3s col-xs-12">
+									<ul>
+										<li class="dropdown-header">Account</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="contact.html">Contact Us</a></li>
+										<li><a href="signin.html">Sign Up</a></li>
+										<li><a href="login.html">Login</a></li>
+									</ul>
+								</div>
+
+								<!-- Contact -->
+								<div class="col-sm-3 col-xs-12">
+									<ul>
+										<li class="dropdown-header">Dashboard</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="order.html">Orders</a></li>
+										<li><a href="address.html">Address</a></li>
+									</ul>
+								</div>
+
+</div>
+</section>
+
+
+<section class="page-wrapper">
+	<div class="contact-section">
+		<div class="container">
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="contact-form col-md-6 " >
+					<form id="contact-form" method="post" action="" role="form">
+					
+						<div class="form-group">
+							<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+						</div>
+						
+						<div class="form-group">
+							<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+						</div>
+						
+						<div class="form-group">
+							<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+						</div>
+						
+						<div class="form-group">
+							<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+						</div>
+						
+						
+						<div id="cf-submit">
+							<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+						</div>						
+						
+					</form>
+				</div>
+				<!-- ./End Contact Form -->
+				
+				<!-- Contact Details -->
+				<div class="contact-details col-md-6 " >
+					<div class="google-map">
+						<div id="map"></div>
+					</div>
+					<ul class="contact-short-info" >
+						<li>
+							<i class="tf-ion-ios-home"></i>
+							<span>St Mary's, Temple St, Sligo</span>
+						</li>
+						<li>
+							<i class="tf-ion-android-phone-portrait"></i>
+							<span>Phone: +353 87 134943</span>
+						</li>
+						
+					</ul>
+	
+			
+			</div> <!-- end row -->
+		</div> <!-- end container -->
+	</div>
+</section>
+	
+
+<footer class="footer section text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="copyright-text">Copyright &copy;2022, FootSoldier  </a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+ <!-- Main jQuery -->
+ <script src="plugins/jquery/dist/jquery.min.js"></script>
+ <!-- Bootstrap Touchpin -->
+ <script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+
+ <!-- Google MapS -->
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+ <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+
+
+
+
+  </body>
+  </html>
